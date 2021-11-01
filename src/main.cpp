@@ -5,11 +5,9 @@
 
 int main()
 {
-    Registr<std::string, int> reg;
+    Registr<std::string, double> reg; // <string, string> Не работает
     
-    reg.add("stering", 12);
-    reg.add("stering2", 112);
-    reg["stering"] = 555;
+    reg["test"] = 0.2;
     
 
     reg.print();
