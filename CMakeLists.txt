@@ -19,7 +19,7 @@ message ("Compiler set options...")
         -Wduplicated-branches
         -Wduplicated-cond
         -Wextra-semi
-        -Wfloat-equal
+        #-Wfloat-equal
         -Wlogical-op
         -Wnon-virtual-dtor
         -Wold-style-cast
